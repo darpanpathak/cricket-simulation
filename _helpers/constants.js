@@ -1,8 +1,9 @@
-export const Constant = {
+const Constant = {
     totalOvers: 4,
     ballsInSingleOver: 6,
     totalRunsToWin: 40,
     totalWicketRemaining: 3,
+    battingTeam : "Bengaluru",
     teams: [{
         name: "Bengaluru",
         players: ["Kirat Boli", "N.S  Nodhi", "R Rumarah", "Shashi Henra"]
@@ -25,5 +26,9 @@ export const Constant = {
     {
         name: "Shashi Henra",
         value: [0.30, 0.25, 0.05, 0.0, 0.05, 0.01, 0.04, 0.30]
-    }]
+    }],
+    winStatusText : 'win',
+    lostStatusText : 'lost'
 }
+
+module.exports = Constant;

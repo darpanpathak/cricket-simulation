@@ -1,4 +1,4 @@
-export default class Team {
+class Team {
     constructor(name, players = []) {
         this.name = name;
         this.players = players;
@@ -8,3 +8,5 @@ export default class Team {
         this.players = players;
     }
 }
+
+module.exports = Team;
