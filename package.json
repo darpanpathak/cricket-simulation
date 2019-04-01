@@ -1,0 +1,21 @@
+{
+  "name": "cricket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start" : "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darpanpathak/cricket-simulation.git"
+  },
+  "keywords": [],
+  "author": "darpan pathak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/darpanpathak/cricket-simulation/issues"
+  },
+  "homepage": "https://github.com/darpanpathak/cricket-simulation#readme"
+}
